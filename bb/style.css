@@ -1,0 +1,420 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*--------Navigation--------*/
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar-brand img {
+  height: 40px;
+  padding-left: 30px;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li {
+  float: right;
+  text-align: left;
+}
+
+#nav-bar ul li a:hover {
+  color: #007bff !important;
+}
+
+.navbar {
+  background: #006361;
+}
+
+.navbar-toggler {
+ background-color: #f1c40f !important;
+ border-color: #f1c40f !important;
+}
+.navbar-toggler:hover {
+ background-color: #e67e22 !important;
+ border-color: #e67e22 !important;
+}
+
+
+.nav-link {
+  color: #f7fcfc !important;
+  font-weight: 600;
+  font-size: 16x;
+}
+
+/*--------slider--------*/
+
+#Home {
+  padding-top: 25px;
+}
+
+#slider {
+  width: 55%;
+}
+
+#Home .col-sm-5 {
+  background: #efefef;
+}
+
+#Home p {
+  text-align: justify;
+  font-size: 22px;
+}
+
+#Home .col-sm-5 #heading {
+  color: #007bff;
+}
+
+.carousel-caption h5 {
+  color: #fff;
+  font-size: 42px;
+}
+
+/*-------Company Profile---------*/
+
+#Profile {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#Profile .heading {
+  text-align: center;
+  font-size: 35px;
+}
+
+.Profile-content {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+/*---------------OUR FIVE PROMISES------------*/
+
+#services {
+  padding-top: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(img/banner7.jpg);
+}
+
+#services .heading {
+  text-align: center;
+  font-size: 40px;
+  color: rgba(31, 181, 172, 0.9);
+}
+
+.folded-corner:hover .text {
+  visibility: visible;
+  color: #000000;
+}
+.Services-tab {
+  margin-top: 20px;
+}
+
+/*
+nav link items
+*/
+.folded-corner {
+  padding: 25px 25px;
+  position: relative;
+  font-size: 50%;
+  text-decoration: none;
+  color: #999;
+  background: transparent;
+  transition: all ease 0.5s;
+  border: 1px solid rgba(31, 181, 172, 0.9);
+}
+.folded-corner:hover {
+  background-color: rgba(31, 181, 172, 0.9);
+}
+
+/*
+   paper fold corner
+ */
+.folded-corner:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0px 0px 0;
+  border-color: #ddd #000;
+  transition: all ease 0.3s;
+}
+
+/*
+   on li hover make paper fold larger
+ */
+.folded-corner:hover:before {
+  background-color: #d00003;
+  border-width: 0 50px 50px 0;
+  border-color: #eee #000;
+}
+
+.service_tab_1 {
+  background-color: #000;
+}
+.service_tab_1:hover .fa-icon-image {
+  color: #000;
+  transform: rotate(360deg) scale(1.5);
+}
+
+.fa-icon-image {
+  color: rgba(31, 181, 172, 0.9);
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  font-size-adjust: none;
+  font-stretch: normal;
+  -moz-font-feature-settings: normal;
+  -moz-font-language-override: normal;
+  text-rendering: auto;
+  transition: all 0.65s linear 0s;
+  text-align: center;
+  transition: all 1s cubic-bezier(0.99, 0.82, 0.11, 1.41);
+}
+
+/*-----------Our Customers---------*/
+
+#Our_Customers {
+  padding-top: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(63, 18, 39, 0.8)),
+    url(img/banner6.jpg);
+}
+
+#Our_Customers .heading {
+  text-align: center;
+  font-size: 55px;
+  color: rgba(31, 181, 172, 0.9);
+}
+
+#Our_Customers .col-sm-2 p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#Our_Customers .col-sm-2 p a {
+  color: rgba(115, 202, 0, 0.9);
+}
+
+/*-----------Our Partners---------*/
+
+#Our_Partners {
+  padding-top: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(7, 46, 22, 0.8)),
+    url(img/banner8.jpg);
+}
+
+#Our_Partners .heading {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  color: rgba(31, 181, 172, 0.9);
+}
+
+#Our_Partners .col-sm-2 p {
+  text-align: center;
+  font-size: 20px;
+}
+
+#Our_Partners .col-sm-2 p a {
+  color: rgba(115, 202, 0, 0.9);
+}
+/*-----------Contact Us---------*/
+
+#contact {
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #777;
+}
+
+.contact-form {
+  padding: 15px;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+}
+::placeholder {
+  color: #999 !important;
+}
+
+/*-----------Quality Assurance---------*/
+#Quality {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#Quality .heading {
+  text-align: center;
+  font-size: 35px;
+}
+
+.Quality-content {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+/*-----------competitive price---------*/
+#competitive {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#competitive .heading {
+  text-align: center;
+  font-size: 35px;
+}
+
+.competitive-content {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+/*-----------after_sales service---------*/
+#after_sales {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#after_sales .heading {
+  text-align: center;
+  font-size: 35px;
+}
+
+.after_sales-content {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#after_sales .carousel-caption {
+  color: rgb(0, 0, 0);
+}
+
+/*-----------long term commitment---------*/
+#commitment {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#commitment .heading {
+  text-align: center;
+  font-size: 35px;
+}
+
+.commitment-content {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#commitment .carousel-caption {
+  color: #555;
+}
+
+/*-----------full product support---------*/
+#support {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+
+#support .heading {
+  text-align: center;
+  font-size: 35px;
+}
+
+.support-content {
+  padding-top: 20px;
+  text-align: justify;
+  font-size: 16px;
+}
+
+#support .carousel-caption {
+  color: rgb(2, 217, 255);
+  font-size: 16px;
+}
+
+/*--------Product--------*/
+
+#Product {
+  padding-top: 25px;
+}
+
+#Product #slider {
+  width: 55%;
+}
+
+#Product .col-sm-5 {
+  background: #efefef;
+}
+
+#Product .col-sm-5 #heading {
+  color: #007bff;
+}
+
+#Product .col-sm-5 #heading2 {
+  color: #942300;
+  font-size: 20px;
+}
+
+#Product p {
+  text-align: left;
+  font-size: 14px;
+}
+
+#Product .carousel-caption h5 {
+  color: #fff;
+  font-size: 42px;
+}
+
+/*--------Footer--------*/
+
+#Footer  {
+  background: rgb(56, 0, 0);
+}
+
+#Footer .col-xs-12
+{
+  color: rgb(1, 189, 132);
+  font-size: 16px;
+}
+
+#Footer a
+{
+  color: rgb(1, 189, 132);
+  font-size: 16px;
+}
+
+#Footer .col-sm-10 
+{
+  color: rgb(1, 189, 132);
+}
+
+#Footer .col-sm-2 {
+  color: rgb(1, 189, 132);
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+#Footer #heading 
+{
+  color: rgb(1, 189, 132);
+  font-size: 16px;
+}
