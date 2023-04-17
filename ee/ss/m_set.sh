@@ -1,0 +1,16 @@
+gpio -x mcp23017:100:0x20:1 mode 100 in
+gpio -x mcp23017:100:0x20:1 mode 101 in
+gpio -x mcp23017:100:0x20:1 mode 102 in
+gpio -x mcp23017:100:0x20:1 mode 103 in
+gpio -x mcp23017:100:0x20:1 mode 104 in
+gpio -x mcp23017:100:0x20:1 mode 105 in
+gpio -x mcp23017:100:0x20:1 mode 106 in
+gpio -x mcp23017:100:0x20:1 mode 107 in
+gpio -x mcp23017:100:0x20:1 mode 108 in
+gpio -x mcp23017:100:0x20:1 mode 109 in
+gpio -x mcp23017:100:0x20:1 mode 110 in
+gpio -x mcp23017:100:0x20:1 mode 111 in
+gpio -x mcp23017:100:0x20:1 mode 112 out
+gpio -x mcp23017:100:0x20:1 mode 113 out
+gpio -x mcp23017:100:0x20:1 mode 114 out
+gpio -x mcp23017:100:0x20:1 mode 115 out
